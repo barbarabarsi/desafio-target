@@ -1,0 +1,92 @@
+Respostas das questões com códigos: 
+
+
+QUESTÃO 1
+
+O valor será 91. 
+A variável é inicializada com o valor 0, e a cada iteração é somada ao valor de k. Como k aumenta uma unidade a cada loop, o valor total da variável "soma" é igual ao somatório do 1 ao 13 (já que quando k é 14, o loop é encerrado).
+Assim, o total da soma será igual a 1+2+3+4+5+6+7+8+9+10+11+12+13 = 91.
+-------------------------------------------------------------------------------------------------------------------------
+
+QUESTÃO 3
+
+3) Descubra a lógica e complete o próximo elemento:
+
+
+a) 9
+Essa é a sequência dos números ímpares. O primeiro número natural não divisível por 2 maior que 7 é 9.
+
+b) 128
+Essa é a sequência das potências de 2 (com exclusão da potência com expoente 0). 
+64 é 2 elevado a 4, ou seja, 2 elevado a 5 é o elemento seguinte, que é 128.
+
+c) 49
+Todo elemento dessa sequência é igual ao quadrado da sua posição, considerando que a numeração de posições começa com 0.
+No caso do oitavo elemento, ele será igual a 7 ao quadrado, ou seja, 49.
+
+d) 100
+Cada elemento dessa sequência é igual ao produto de 4 pelo quadrado da posição que ele está.
+36 ocupa a terceira posição, já que é igual ao produto de 4 pelo quadrado de 3, já que o número ocupa a terceira posição. 
+Assim, o elemento da quinta posição deve ser 4*5*5 = 100
+
+e) 13
+Essa é a sequência de Fibonacci, onde cada número é um soma dos seus 2 antecessores.
+Assim, o sétimo elemento será igual a 8+5 = 13.
+
+f) 200
+Nessa sequência peculiar, cada número começa com D (quando escrito por extenso). 
+Seguindo essa lógica, o próximo número com essa característica é o 200.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+QUESTÃO 4
+
+Os dois estarão na mesma distância de Ribeirão Preto. 
+Como eles estarão na mesma posição na estrada ao se cruzarem, apesar de estarem em sentidos opostos, suas distâncias para cada uma das cidades será a mesma .
+
+Se quisermos determinar o ponto de encontro dos veículos, o que precisamos levar em conta é a equação da velocidade:
+
+ΔV = ΔS/ΔT
+ΔS = ΔV * ΔT
+
+Temos como determinar em qual altura da estrada os veículos estavam, levando em consideração o tempo de viagem.
+Como os dois partem em momentos iguais de suas origens, o tempo de viagem deverá ser o mesmo para os dois no momento do encontro.
+Considerando S a posição de encontro, o carro como veículo 1 (partindo do quilômetro 0 da rodovia) e o caminhão como veículo 2 (partindo do quilômetro 100 da rodovia), teremos:
+
+Distância percorrida pelo veículo 1: S - 0 = ΔV1 * ΔT
+Distância percorrida pelo veículo 2: S - 100 = ΔV2 * ΔT
+
+Se isolarmos o ΔT nas equações, teremos:
+
+S/ΔV1 = ΔT
+(S-100)/ΔV2 = ΔT
+
+Logo:
+
+S/ΔV1 = (S-100)/ΔV2
+
+Sabemos a velocidade dos 2 veículos. Porém, o caminhão passará pelos 2 pedágios sem tag, o que diminui sua velocidade. 
+Para recalcular sua velocidade média, teremos que estipular quanto tempo ele gastaria sem essa interrupção:
+
+ΔV2 = ΔS2/ΔT2
+80 = 100/ΔT2
+ΔT2 = 100/80 = 1,25h
+
+Logo, o tempo total de velocidade é igual a 1,25 horas somadas aos 10 minutos da interrupção total, o que é igual a aproximadamente 0,167 horas.
+Assim, a velocidade média real do caminhão será:
+
+ΔV2 = 100/1,25 + 0,167
+ΔV2 = 100/1,417
+ΔV2 ≈ 70,57
+
+Como o caminhão está indo em direção oposta ao carro, vamos considerar sua velocidade negativa e a do carro, positiva.
+Substituindo esse valor em S/ΔV1 = (S-100)/ΔV2, junto com a velocidade do carro, temos:
+
+S/110 = (S-100)/-70,57
+-70,57 * S = 110 * S - 11000
+-180,57 * S = -11000 
+S = -11000/-180,57
+S = 60,91 km
+
+Logo, o ponto de encontro dos veículos será no quilômetro 60,91 da rodovia. 
+Nesse momento, o carro estará mais perto de seu destino, a cidade de Franca.
